@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 225px;
+  height: 100%;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar .copy{
+  color: #fff;
+  position: relative;
+  top: 8px;
+  margin-left: 20px;
+}
+
+
+.wrapper .sidebar .logo{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.wrapper .sidebar .user{
+  display: block;
+  color: #fff;
+  margin-top:10px;
+  margin-bottom:43px;
+  margin-left:13px;
+}
+.wrapper .sidebar .user .fas{
+  font-size: 70px;
+  margin-left:70px;
+}
+.wrapper .sidebar .user .user-actif{
+  position: relative;
+  padding: 15px;
+  margin-left: -60px;
+}
+.wrapper .sidebar .user .user-actif .fas{
+  color: rgb(9, 211, 9);
+  font-size: 12px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  cursor: pointer;
+  margin-left: 3px;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+  text-decoration: none;
+  border: none;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #485461;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 220px;
+}
+
+.wrapper .main_content .header{
+  height: 75px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.wrapper .main_content .header button{
+  margin-top: 15px;
+  margin-right: 17px;
+  padding: 13px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  background-color: #485461;
+  border: transparent;
+  float: right;
+}
+
+.wrapper .main_content .header button a{
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+img{
+  float: right;
+}
+/* ----------------- start Home Style -------------*/
+.row .card{
+  border-radius: 8px;
+}
+.row .card .fas{
+ font-size: 30px;
+ float: right;
+}
+.card-title{
+  font-weight: bold;
+}
+.card-text{
+  font-size: 22px;
+  font-weight: bold;
+}
+/* ----------------- end Home Style -------------*/
+
+
+
+
+/* ----------------- start achat style -----------*/
+.des {
+  border: 1px solid #bdb8d7;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  border-radius: 10px;
+}
+
+.des .frm{
+  margin: 0px 22px;
+} 
+.des .frm .ln{
+  margin: 3px 0px;
+}
+
+.container .form-row .num{
+  width: 150px;
+  height: 30px;
+  text-align: center;
+}
+
+.container .butn{
+  margin-left: 390px;
+  width: 230px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.card-body .tabl{
+  float: right;
+}
+
+td .fas{
+  font-size: 20px;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+table{
+  text-align: center;
+}
+
+/* ----------------- end achat style -----------*/
+
+
+/*------------------- start stock --------------*/
+.card-body .ref{
+  width: 310px;
+}
+.card-body .ref .btn {
+  margin-left: 300px;
+  margin-top: -65px;
+}
+
+
+/*---------------------end stock -------------*/
+
+
+.catg{
+  float: right;
+  margin-top: -40px;
+}
+
+
+
+
